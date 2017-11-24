@@ -1,0 +1,119 @@
+
+[4m    Welcome to [4;5;44m Mordor [0m[4m, a server from the Roitberg group[0m
+     pbarletta 
+
+    If you experience any problems please contact:
+      Vinicius Cruzeiro (vwcruzeiro@ufl.edu)
+      Justin Smith (jsmith48@ufl.edu)
+
+    [4;5;43mFor system information type:[0m mordorinfo
+
+    The jobs running on the PBS TORQUE are: 
+     37625.mordor         pbarlett batch    lb_pdz            20193     1   0    --  1000: R 118:1   mordor/1
+     37661.mordor         kdrana   batch    ORCA1             26226     1   0    --  1000: R 15:18   mordor/0,3-5
+     37668.mordor         pbarlett batch    ctv_equ            9422     1   0    --  1000: R 00:05   mordor/2
+     37672.mordor         pbarlett batch    eol_equ           10117     1   0    --  1000: R   --    mordor/6
+
+    Current users logged in (use 'write [user name]' to communicate):
+     pbarletta pts/0        Nov 17 07:43 (10.136.211.65)
+     pbarletta pts/1        Nov 17 07:43 (10.136.211.65)
+     pbarletta pts/2        Nov 17 07:44 (10.136.211.65)
+     pbarletta pts/3        Nov 17 07:49 (10.136.211.65)
+     delaram  pts/9        Nov 15 15:49 (10.30.162.0)
+     kdrana   pts/10       Nov 16 10:12 (10.136.184.43)
+     kdrana   pts/12       Nov 16 10:14 (10.136.184.43)
+
+
+    "Bombay is 250ms from New York in the new world order"
+    	-- Alan Cox
+    
+Step: 1
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 1
+Step: 2
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 2
+Step: 3
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 3
+Step: 4
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 4
+Step: 5
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 5
+Step: 6
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 6
+Step: 7
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 7
+Step: 8
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 8
+Step: 9
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 9
+Step: 10
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 10
+Step: 11
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 11
+Step: 12
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 12
+Step: 13
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 13
+Step: 14
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 14
+Step: 15
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 15
+Step: 16
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 16
+Step: 17
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 17
+Step: 18
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 18
+Step: 19
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 19
+Step: 20
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 20
+Step: 21
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 21
+Step: 22
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 22
+Step: 23
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 23
+Step: 24
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 24
+Step: 25
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 25
+Step: 26
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 26
+Step: 27
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 27
+Step: 28
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 28
+Step: 29
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done step: 29
+Step: 30
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Done single step: 30

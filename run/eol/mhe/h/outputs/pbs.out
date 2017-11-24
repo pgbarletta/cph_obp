@@ -1,0 +1,31 @@
+
+[4m    Welcome to [4;5;44m Mordor [0m[4m, a server from the Roitberg group[0m
+     pbarletta 
+
+    If you experience any problems please contact:
+      Vinicius Cruzeiro (vwcruzeiro@ufl.edu)
+      Justin Smith (jsmith48@ufl.edu)
+
+    [4;5;43mFor system information type:[0m mordorinfo
+
+    The jobs running on the PBS TORQUE are: 
+     37625.mordor         pbarlett batch    lb_pdz            20193     1   0    --  1000: R 118:1   mordor/1
+     37661.mordor         kdrana   batch    ORCA1             26226     1   0    --  1000: R 15:15   mordor/0,3-5
+     37668.mordor         pbarlett batch    ctv_equ            9422     1   0    --  1000: R 00:03   mordor/2
+     37671.mordor         pbarlett batch    hea_eol            9924     1   0    --  1000: R   --    mordor/6
+
+    Current users logged in (use 'write [user name]' to communicate):
+     pbarletta pts/0        Nov 17 07:43 (10.136.211.65)
+     pbarletta pts/1        Nov 17 07:43 (10.136.211.65)
+     pbarletta pts/2        Nov 17 07:44 (10.136.211.65)
+     pbarletta pts/3        Nov 17 07:49 (10.136.211.65)
+     delaram  pts/9        Nov 15 15:49 (10.30.162.0)
+     kdrana   pts/10       Nov 16 10:12 (10.136.184.43)
+     kdrana   pts/12       Nov 16 10:14 (10.136.184.43)
+
+
+    Bad men live that they may eat and drink, whereas good men eat and drink
+    that they may live.
+    	-- Socrates
+    
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL

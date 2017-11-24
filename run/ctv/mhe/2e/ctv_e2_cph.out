@@ -1,0 +1,32 @@
+----------------------------------------
+Begin Torque Prologue on nid25435
+at Fri Nov 17 17:44:33 CST 2017
+Job Id:			7841954.bw
+Username:		barletta
+Group:			PRAC_gk4
+Job name:		ctv_e2_cph_
+Requested resources:	neednodes=10:ppn=1:xk,nodes=10:ppn=1:xk,walltime=07:00:00
+Queue:			normal
+Account:		gk4
+End Torque Prologue:  0.098 elapsed
+----------------------------------------
+
+
+
+
+
+ Running multipmemd version of pmemd Amber16
+    Total processors =    10
+    Number of groups =    10
+
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Application 63403081 resources: utime ~148137s, stime ~12523s, Rss ~336392, inblocks ~609585974, outblocks ~739066331
