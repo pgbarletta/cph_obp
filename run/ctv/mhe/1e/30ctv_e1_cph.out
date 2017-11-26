@@ -1,0 +1,18 @@
+----------------------------------------
+Begin Torque Prologue on nid25258
+at Sat Nov 25 22:22:04 CST 2017
+Job Id:			7867688.bw
+Username:		barletta
+Group:			PRAC_gk4
+Job name:		ctv_e1_cph_30
+Requested resources:	neednodes=1:ppn=1:xk,nodes=1:ppn=1:xk,walltime=07:00:00
+Queue:			normal
+Account:		gk4
+End Torque Prologue:  0.205 elapsed
+----------------------------------------
+
+
+
+
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+Application 63499637 resources: utime ~12615s, stime ~1459s, Rss ~322192, inblocks ~60954654, outblocks ~73879280

@@ -37,5 +37,4 @@ cprst=/u/sciteam/barletta/scratch/cph_obp/run/ctv/mhe/1e/"$i"ph/"$i"cprst_e1_ctv
 cpout=/u/sciteam/barletta/scratch/cph_obp/run/ctv/mhe/1e/"$i"ph/"$i"cpout_e1_ctv
 
 
-aprun -n 1 -N 1 $pmemd_cuda -O -i $mdin -o $mdout -p $prmtop -c $inpcrd -r $restrt -x $mdcrd -cpin $cpin -cprestrt $cprst -cpout $cpout
- 
+aprun -n 1 -N 1 $pmemd_cuda -O -i $mdin -o $mdout -p $prmtop -c $inpcrd -r $restrt -x $mdcrd -cpin $cpin -cprestrt $cprst -cpout $cpout -inf 55_mdinfo 

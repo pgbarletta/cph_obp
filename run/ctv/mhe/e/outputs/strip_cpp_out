@@ -4,8 +4,8 @@ CPPTRAJ: Trajectory Analysis. V17.00b
      | \/ | \/ | \/ | 
     _|_/\_|_/\_|_/\_|_
 
-| Date/time: 11/17/17 10:06:28
-| Available memory: 781.611 MB
+| Date/time: 11/25/17 21:03:56
+| Available memory: 7.331 GB
 
 INPUT: Reading input from 'STDIN'
   [parm /scratch/pbarletta/cph_obp/top_files/ctv.prmtop]
@@ -206,7 +206,7 @@ Warning:  after the RMS-fit is performed.
 60% 70% 80% 90% 100% Complete.
 
 Read 4860 frames and processed 4860 frames.
-TIME: Avg. throughput= 600.9838 frames / second.
+TIME: Avg. throughput= 392.4729 frames / second.
 
 ACTION OUTPUT:
 
@@ -218,14 +218,14 @@ DATAFILES (1 total):
 
 RUN TIMING:
 TIME:		Init               : 0.0001 s (  0.00%)
-TIME:		Trajectory Process : 8.0867 s ( 99.93%)
+TIME:		Trajectory Process : 12.3830 s ( 99.94%)
 TIME:		Action Post        : 0.0000 s (  0.00%)
 TIME:		Analysis           : 0.0000 s (  0.00%)
-TIME:		Data File Write    : 0.0055 s (  0.07%)
-TIME:		Other              : 0.0003 s (  0.00%)
-TIME:	Run Total 8.0926 s
+TIME:		Data File Write    : 0.0067 s (  0.05%)
+TIME:		Other              : 0.0008 s (  0.00%)
+TIME:	Run Total 12.3906 s
 ---------- RUN END ---------------------------------------------------
-TIME: Total execution time: 8.1646 seconds.
+TIME: Total execution time: 12.4582 seconds.
 --------------------------------------------------------------------------------
 To cite CPPTRAJ use:
 Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for

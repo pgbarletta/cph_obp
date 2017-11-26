@@ -7,18 +7,18 @@ loadamberparams lig/eugenol.frcmod
 # Load ligand
 loadoff lig/eugenol.lib
 # Load complex 
-cpx = loadpdb rot_orig_wt_eol.pdb
+mol = loadpdb rot_orig_wt_eol.pdb
 # Add S bonds
 bond mol.88.SG mol.106.SG
 bond mol.17.SG mol.49.SG
 
 # Now continue as normal
-solvateoct cpx TIP3PBOX 10 
-charge cpx
-addions2 cpx Cl- 0
-addions2 cpx Na+ 0
+solvateoct mol TIP3PBOX 10 
+charge mol
+addions2 mol Cl- 0
+addions2 mol Na+ 0
 
-saveamberparm cpx eol.prmtop eol.rst7
-savepdb cpx eol.pdb
+saveamberparm mol eol.prmtop eol.rst7
+savepdb mol eol.pdb
 
 quit

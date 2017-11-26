@@ -29,7 +29,7 @@ prmtop=/u/sciteam/barletta/scratch/cph_obp/top_files/eol.prmtop
 mdin=/u/sciteam/barletta/scratch/cph_obp/run/eol/mhe/1e/"$i"ph/"$i"equ.in
 mdout=/u/sciteam/barletta/scratch/cph_obp/run/eol/mhe/1e/"$i"ph/"$i"equ.out
 inpcrd=/u/sciteam/barletta/scratch/cph_obp/run/eol/mhe/e/30eeol.rst7
-restrt=/u/sciteam/barletta/scratch/cph_obp/run/eol/mhe/1e/"$i"ph/e1_eol.rst7
+restrt=/u/sciteam/barletta/scratch/cph_obp/run/eol/mhe/1e/"$i"ph/30e1_eol.rst7
 mdcrd=/u/sciteam/barletta/scratch/cph_obp/run/eol/mhe/1e/"$i"ph/"$i"e1_eol.nc
 
 cpin=/u/sciteam/barletta/scratch/cph_obp/top_files/incph_eol
@@ -37,5 +37,4 @@ cprst=/u/sciteam/barletta/scratch/cph_obp/run/eol/mhe/1e/"$i"ph/"$i"cprst_e1_eol
 cpout=/u/sciteam/barletta/scratch/cph_obp/run/eol/mhe/1e/"$i"ph/"$i"cpout_e1_eol
 
 
-aprun -n 1 -N 1 $pmemd_cuda -O -i $mdin -o $mdout -p $prmtop -c $inpcrd -r $restrt -x $mdcrd -cpin $cpin -cprestrt $cprst -cpout $cpout
- 
+aprun -n 1 -N 1 $pmemd_cuda -O -i $mdin -o $mdout -p $prmtop -c $inpcrd -r $restrt -x $mdcrd -cpin $cpin -cprestrt $cprst -cpout $cpout -inf 30_mdinfo 

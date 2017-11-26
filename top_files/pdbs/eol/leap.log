@@ -1,4 +1,4 @@
-log started: Tue Nov 14 21:35:00 2017
+log started: Sat Nov 25 12:29:54 2017
 
 Log file: ./leap.log
 >>> #
@@ -706,7 +706,7 @@ Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12
 ----- Source: /home/german/amber16/dat/leap/cmd/leaprc.gaff
 ----- Source of /home/german/amber16/dat/leap/cmd/leaprc.gaff done
 >> logFile leap.log
-log started: Tue Nov 14 21:35:01 2017
+log started: Sat Nov 25 12:29:54 2017
 
 Log file: ./leap.log
 >> #
@@ -807,7 +807,7 @@ Could not open file lig/eugenol.frcmod: not found
 Loading library: ./lig/eugenol.lib
 Loading: EOL
 > # Load complex 
-> cpx = loadpdb rot_orig_wt_eol.pdb
+> mol = loadpdb rot_orig_wt_eol.pdb
 Loading PDB file: ./rot_orig_wt_eol.pdb
 Enter zPdbReadScan from call depth  0.
 Exit  zPdbReadScan from call depth  0.
@@ -1055,14 +1055,10 @@ Joining PHE - CLEU
        1042 H / lone pairs
 > # Add S bonds
 > bond mol.88.SG mol.106.SG
-bond: Argument #1 is type String must be of type: [atom]
-usage:  bond <atom1> <atom2> [order]
 > bond mol.17.SG mol.49.SG
-bond: Argument #1 is type String must be of type: [atom]
-usage:  bond <atom1> <atom2> [order]
 > 
 > # Now continue as normal
-> solvateoct cpx TIP3PBOX 10 
+> solvateoct mol TIP3PBOX 10 
 Scaling up box by a factor of 1.420143 to meet diagonal cut criterion
   Solute vdw bounding box:              37.651 42.929 33.046
   Total bounding box for atom centers:  71.332 71.332 71.332
@@ -1200,15 +1196,15 @@ Center of solvent box is: -28.161524, -28.161524, -28.161524
   Volume: 189218.291 A^3 (oct)
   Total mass 99796.862 amu,  Density 0.876 g/cc
   Added 4775 residues.
-> charge cpx
+> charge mol
 Total unperturbed charge:  -1.000000
 Total perturbed charge:    -1.000000
-> addions2 cpx Cl- 0
+> addions2 mol Cl- 0
 addIons: 1st Ion & target are the same charge:
      can't neutralize.
-> addions2 cpx Na+ 0
+> addions2 mol Na+ 0
 1 Na+ ion required to neutralize.
-Adding 1 counter ions to "cpx" using 1A grid
+Adding 1 counter ions to "mol" using 1A grid
 Total solute charge:  -1.00  Max atom radius:   2.00
 Grid extends from solute vdw + 1.37  to  7.37
 Box:
@@ -1217,15 +1213,15 @@ Box:
    edge:        128.00
 Resolution:      1.00 Angstrom.
 Tree depth: 7
-grid build: 1 sec
+grid build: 0 sec
 Volume =  5.00% of box, grid points 104875
 Calculating grid charges
-charges: 53 sec
-Placed Na+ in cpx at (-5.25, -7.10, 22.78).
+charges: 52 sec
+Placed Na+ in mol at (-5.25, -7.10, 22.78).
 
 Done adding ions.
 > 
-> saveamberparm cpx eol.prmtop eol.rst7
+> saveamberparm mol eol.prmtop eol.rst7
 Checking Unit.
 Building topology.
 Building atom parameters.
@@ -1257,7 +1253,7 @@ Marking per-residue atom chain types.
 	WAT	4775
   )
  (no restraints)
-> savepdb cpx eol.pdb
+> savepdb mol eol.pdb
 Writing pdb file: eol.pdb
    printing CRYST1 record to PDB file with box info
  Converting N-terminal residue name to PDB format: NMET -> MET
