@@ -1,14 +1,14 @@
 ----------------------------------------
-Begin Torque Prologue on nid25435
-at Fri Nov 17 17:44:33 CST 2017
-Job Id:			7841954.bw
+Begin Torque Prologue on nid25338
+at Sun Nov 26 06:36:23 CST 2017
+Job Id:			7868977.bw
 Username:		barletta
 Group:			PRAC_gk4
 Job name:		ctv_e2_cph_
 Requested resources:	neednodes=10:ppn=1:xk,nodes=10:ppn=1:xk,walltime=07:00:00
 Queue:			normal
 Account:		gk4
-End Torque Prologue:  0.098 elapsed
+End Torque Prologue:  0.226 elapsed
 ----------------------------------------
 
 
@@ -19,14 +19,61 @@ End Torque Prologue:  0.098 elapsed
     Total processors =    10
     Number of groups =    10
 
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Application 63403081 resources: utime ~148137s, stime ~12523s, Rss ~336392, inblocks ~609585974, outblocks ~739066331
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+_pmiu_daemon(SIGCHLD): [NID 04542] [c6-0c1s0n2] [Sun Nov 26 10:46:56 2017] PE RANK 8 exit signal Segmentation fault
+_pmiu_daemon(SIGCHLD): [NID 06846] [c10-0c1s0n2] [Sun Nov 26 10:46:56 2017] PE RANK 4 exit signal Segmentation fault
+_pmiu_daemon(SIGCHLD): [NID 06976] [c12-0c1s0n2] [Sun Nov 26 10:46:56 2017] PE RANK 2 exit signal Segmentation fault
+_pmiu_daemon(SIGCHLD): [NID 09150] [c14-0c1s0n2] [Sun Nov 26 10:46:56 2017] PE RANK 0 exit signal Segmentation fault
+[NID 09150] 2017-11-26 10:46:56 Apid 63502973: initiated application termination
+Application 63502973 exit codes: 139
+Application 63502973 exit signals: Killed
+Application 63502973 resources: utime ~54023s, stime ~4644s, Rss ~337032, inblocks ~243965937, outblocks ~295938401
