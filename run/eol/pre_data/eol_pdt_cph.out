@@ -1,14 +1,14 @@
 ----------------------------------------
-Begin Torque Prologue on nid25255
-at Sun Nov 19 22:13:19 CST 2017
-Job Id:			7846658.bw
+Begin Torque Prologue on nid27563
+at Sun Nov 26 17:29:36 CST 2017
+Job Id:			7870385.bw
 Username:		barletta
 Group:			PRAC_gk4
 Job name:		eol_pdt_cph_
 Requested resources:	neednodes=10:ppn=1:xk,nodes=10:ppn=1:xk,walltime=19:00:00
 Queue:			normal
 Account:		gk4
-End Torque Prologue:  0.096 elapsed
+End Torque Prologue:  0.208 elapsed
 ----------------------------------------
 
 
@@ -19,15 +19,63 @@ End Torque Prologue:  0.096 elapsed
     Total processors =    10
     Number of groups =    10
 
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-Application 63421545 network quiesced: 5 nodes quiesced, 00:04:57 node-seconds
-Application 63421545 resources: utime ~583402s, stime ~51937s, Rss ~339300, inblocks ~241485860, outblocks ~259232477
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+_pmiu_daemon(SIGCHLD): [NID 20548] [c13-2c2s2n2] [Mon Nov 27 10:30:53 2017] PE RANK 4 exit signal Segmentation fault
+_pmiu_daemon(SIGCHLD): [NID 18244] [c17-2c2s2n2] [Mon Nov 27 10:30:53 2017] PE RANK 8 exit signal Segmentation fault
+_pmiu_daemon(SIGCHLD): [NID 20922] [c11-2c2s2n2] [Mon Nov 27 10:30:53 2017] PE RANK 2 exit signal Segmentation fault
+_pmiu_daemon(SIGCHLD): [NID 18618] [c15-2c2s2n2] [Mon Nov 27 10:30:53 2017] PE RANK 6 exit signal Segmentation fault
+[NID 20548] 2017-11-27 10:30:53 Apid 63509267: initiated application termination
+Application 63509267 network throttled: 10 nodes throttled, 00:20:46 node-seconds
+Application 63509267 balanced injection 100, after throttle 63
+Application 63509267 exit codes: 139
+Application 63509267 exit signals: Killed
+Application 63509267 resources: utime ~226320s, stime ~18584s, Rss ~340444, inblocks ~96729776, outblocks ~103959827

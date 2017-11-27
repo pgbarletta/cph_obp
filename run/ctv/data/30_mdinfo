@@ -1,0 +1,18 @@
+
+ NSTEP = 10000000   TIME(PS) =   35000.000  TEMP(K) =   296.90  PRESS =     0.0
+ Etot   =    -35311.5362  EKtot   =      9083.2041  EPtot      =    -44394.7403
+ BOND   =       369.7833  ANGLE   =      1031.8181  DIHED      =      1382.6260
+ 1-4 NB =       446.3440  1-4 EEL =      6461.3641  VDWAALS    =      4782.4148
+ EELEC  =    -58869.0905  EHBOND  =         0.0000  RESTRAINT  =         0.0000
+ SOLVPH =         7.0000  REPNUM  =              1  EXCHANGE#  =         100000
+
+|  Final Performance Info:
+|     -----------------------------------------------------
+|     Average timings for last   50000 steps:
+|     Elapsed(s) =     279.99 Per Step(ms) =       5.60
+|         ns/day =      30.86   seconds/ns =    2799.92
+|
+|     Average timings for all steps:
+|     Elapsed(s) =   56018.10 Per Step(ms) =       5.60
+|         ns/day =      30.85   seconds/ns =    2800.91
+|     -----------------------------------------------------

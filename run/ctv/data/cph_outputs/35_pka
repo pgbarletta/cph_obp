@@ -1,0 +1,39 @@
+Solvent pH is    3.500
+GL4 4   : Offset  0.463  Pred  3.963  Frac Prot 0.744 Transitions     16597
+GL4 5   : Offset  0.057  Pred  3.557  Frac Prot 0.533 Transitions     17680
+LYS 7   : Offset  3.481  Pred  6.981  Frac Prot 1.000 Transitions        34
+HIP 11  : Offset  1.880  Pred  5.380  Frac Prot 0.987 Transitions      1094
+GL4 13  : Offset  1.720  Pred  5.220  Frac Prot 0.981 Transitions      1448
+LYS 18  : Offset  3.377  Pred  6.877  Frac Prot 1.000 Transitions        58
+GL4 20  : Offset  1.726  Pred  5.226  Frac Prot 0.982 Transitions      2448
+AS4 24  : Offset -0.719  Pred  2.781  Frac Prot 0.160 Transitions     11288
+LYS 27  : Offset  3.356  Pred  6.856  Frac Prot 1.000 Transitions        36
+AS4 30  : Offset  0.359  Pred  3.859  Frac Prot 0.696 Transitions     12447
+GL4 33  : Offset  0.843  Pred  4.343  Frac Prot 0.874 Transitions      8578
+AS4 37  : Offset -0.551  Pred  2.949  Frac Prot 0.219 Transitions     13405
+GL4 39  : Offset  0.910  Pred  4.410  Frac Prot 0.890 Transitions      9600
+AS4 40  : Offset -1.025  Pred  2.475  Frac Prot 0.086 Transitions      6170
+LYS 41  : Offset  4.398  Pred  7.898  Frac Prot 1.000 Transitions         4
+LYS 42  : Offset  4.222  Pred  7.722  Frac Prot 1.000 Transitions         6
+GL4 48  : Offset -0.916  Pred  2.584  Frac Prot 0.108 Transitions      6117
+LYS 52  : Offset  3.026  Pred  6.526  Frac Prot 0.999 Transitions       110
+AS4 58  : Offset -1.723  Pred  1.777  Frac Prot 0.019 Transitions      1592
+LYS 59  : Offset    inf  Pred    inf  Frac Prot 1.000 Transitions         0
+LYS 64  : Offset  4.398  Pred  7.898  Frac Prot 1.000 Transitions         8
+LYS 69  : Offset  3.347  Pred  6.847  Frac Prot 1.000 Transitions        51
+GL4 73  : Offset  0.284  Pred  3.784  Frac Prot 0.658 Transitions     14966
+AS4 77  : Offset -0.607  Pred  2.893  Frac Prot 0.198 Transitions     11049
+GL4 78  : Offset  0.316  Pred  3.816  Frac Prot 0.674 Transitions     18033
+LYS 82  : Offset    inf  Pred    inf  Frac Prot 1.000 Transitions         0
+AS4 87  : Offset  0.095  Pred  3.595  Frac Prot 0.554 Transitions     16194
+GL4 93  : Offset -0.516  Pred  2.984  Frac Prot 0.234 Transitions     12026
+GL4 94  : Offset  1.024  Pred  4.524  Frac Prot 0.913 Transitions      9781
+HIP 97  : Offset  2.085  Pred  5.585  Frac Prot 0.992 Transitions       788
+LYS 99  : Offset  4.000  Pred  7.500  Frac Prot 1.000 Transitions        18
+LYS 102 : Offset    inf  Pred    inf  Frac Prot 1.000 Transitions         0
+LYS 109 : Offset  3.553  Pred  7.053  Frac Prot 1.000 Transitions        16
+LYS 111 : Offset    inf  Pred    inf  Frac Prot 1.000 Transitions         0
+LYS 114 : Offset  3.000  Pred  6.500  Frac Prot 0.999 Transitions        78
+AS4 117 : Offset  0.240  Pred  3.740  Frac Prot 0.635 Transitions     16360
+
+Average total molecular protonation:  59.134
