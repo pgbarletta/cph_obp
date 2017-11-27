@@ -1,0 +1,78 @@
+----------------------------------------
+Begin Torque Prologue on nid25435
+at Sun Nov 26 11:12:38 CST 2017
+Job Id:			7869242.bw
+Username:		barletta
+Group:			PRAC_gk4
+Job name:		eol_e2_cph_
+Requested resources:	neednodes=10:ppn=1:xk,nodes=10:ppn=1:xk,walltime=07:00:00
+Queue:			normal
+Account:		gk4
+End Torque Prologue:  0.375 elapsed
+----------------------------------------
+
+
+
+
+
+ Running multipmemd version of pmemd Amber16
+    Total processors =    10
+    Number of groups =    10
+
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+_pmiu_daemon(SIGCHLD): [NID 20922] [c11-2c2s2n2] [Sun Nov 26 15:48:30 2017] PE RANK 2 exit signal Segmentation fault
+_pmiu_daemon(SIGCHLD): [NID 18244] [c17-2c2s2n2] [Sun Nov 26 15:48:30 2017] PE RANK 8 exit signal Segmentation fault
+#0  0x2AAAB781FB27
+#1  0x2AAAB782013E
+#2  0x2AAAB822690F
+#3  0x5A99E1 in _gpuContext::~_gpuContext()
+#4  0x582D25 in gpu_shutdown_
+#5  0x4FB157 in MAIN__ at pmemd.F90:?
+_pmiu_daemon(SIGCHLD): [NID 22852] [c9-2c2s2n2] [Sun Nov 26 15:48:30 2017] PE RANK 0 exit signal Segmentation fault
+[NID 22852] 2017-11-26 15:48:30 Apid 63503918: initiated application termination
+Application 63503918 exit codes: 139
+Application 63503918 exit signals: Killed
+Application 63503918 resources: utime ~44399s, stime ~3831s, Rss ~341552, inblocks ~183199509, outblocks ~225688143
