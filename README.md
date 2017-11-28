@@ -29,3 +29,27 @@ cphstats -i ~/labo/17/cph_obp/top_files/incph_apo reordered_cpouts.pH_60 -o 60_p
 cphstats -i ~/labo/17/cph_obp/top_files/incph_apo reordered_cpouts.pH_65 -o 65_pka --population 65_pop 
 cphstats -i ~/labo/17/cph_obp/top_files/incph_apo reordered_cpouts.pH_70 -o 70_pka --population 70_pop 
 cphstats -i ~/labo/17/cph_obp/top_files/incph_apo reordered_cpouts.pH_75 -o 75_pka --population 75_pop 
+
+> Nueva selección:
+4
+5
+11
+13
+20
+24
+30
+33
+37
+39
+40
+47
+48
+52
+58
+73
+77
+78
+87
+94
+97
+117
