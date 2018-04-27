@@ -1,7 +1,8 @@
 # CpH OBP
->    Luego de la corrida, mover todos los *out al dir outputs/ (como siempre)
-y todos los *cpout* a cph_outputs/ y ahí hacer:
 
+Luego de la corrida, mover todos los \*out al dir outputs/ (como siempre)
+y todos los *cpout* a cph_outputs/ y ahí hacer:
+```
 cphstats --fix-remd reordered_cpouts *cpout*
 mv reordered_cpouts.pH_3.00 reordered_cpouts.pH_30
 mv reordered_cpouts.pH_3.50 reordered_cpouts.pH_35
@@ -13,11 +14,12 @@ mv reordered_cpouts.pH_6.00 reordered_cpouts.pH_60
 mv reordered_cpouts.pH_6.50 reordered_cpouts.pH_65
 mv reordered_cpouts.pH_7.00 reordered_cpouts.pH_70
 mv reordered_cpouts.pH_7.50 reordered_cpouts.pH_75
+```
 
 P/ q los cpouts, en vez de estar ordenados según réplica, lo estén en base
 a pH.
 
-> Luego, obtengo los pKas y las poblaciones de c/ aminoácido: (ej. con la prote "apo")
+##### Luego, obtengo los pKas y las poblaciones de c/ aminoácido: (ej. con la prote "apo")
 
 cphstats -i ~/labo/17/cph_obp/top_files/incph_apo reordered_cpouts.pH_30 -o 30_pka --population 30_pop 
 cphstats -i ~/labo/17/cph_obp/top_files/incph_apo reordered_cpouts.pH_35 -o 35_pka --population 35_pop 
@@ -30,7 +32,9 @@ cphstats -i ~/labo/17/cph_obp/top_files/incph_apo reordered_cpouts.pH_65 -o 65_p
 cphstats -i ~/labo/17/cph_obp/top_files/incph_apo reordered_cpouts.pH_70 -o 70_pka --population 70_pop 
 cphstats -i ~/labo/17/cph_obp/top_files/incph_apo reordered_cpouts.pH_75 -o 75_pka --population 75_pop 
 
-> Nueva selección:
+## Notas
+
+##### 1  Nueva selección:
 4
 5
 11
@@ -53,3 +57,43 @@ cphstats -i ~/labo/17/cph_obp/top_files/incph_apo reordered_cpouts.pH_75 -o 75_p
 94
 97
 117
+
+##### 2 Residuos protonables:
+GL4 4                                   
+GL4 5                                     
+LYS 7                                     
+HIP 11 
+GL4 13 
+LYS 18 
+GL4 20 
+AS4 24 
+LYS 27 
+AS4 30 
+GL4 33 
+AS4 37 
+GL4 39 
+AS4 40 
+LYS 41 
+LYS 42 
+GL4 48 
+LYS 52 
+AS4 58 
+LYS 59 
+LYS 64 
+LYS 69 
+GL4 73 
+AS4 77 
+GL4 78 
+LYS 82 
+AS4 87 
+GL4 93 
+GL4 94 
+HIP 97 
+LYS 99 
+LYS 102
+LYS 109
+LYS 111
+LYS 114
+AS4 117
+
+##### 5

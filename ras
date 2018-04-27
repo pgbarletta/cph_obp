@@ -1,0 +1,10 @@
+sed -i 's/Equilibration without solute restrictions/Production/g' 30ph/30pdt.in
+sed -i 's/Equilibration without solute restrictions/Production/g' 35ph/35pdt.in
+sed -i 's/Equilibration without solute restrictions/Production/g' 40ph/40pdt.in
+sed -i 's/Equilibration without solute restrictions/Production/g' 45ph/45pdt.in
+sed -i 's/Equilibration without solute restrictions/Production/g' 50ph/50pdt.in
+sed -i 's/Equilibration without solute restrictions/Production/g' 55ph/55pdt.in
+sed -i 's/Equilibration without solute restrictions/Production/g' 60ph/60pdt.in
+sed -i 's/Equilibration without solute restrictions/Production/g' 65ph/65pdt.in
+sed -i 's/Equilibration without solute restrictions/Production/g' 70ph/70pdt.in
+sed -i 's/Equilibration without solute restrictions/Production/g' 75ph/75pdt.in
